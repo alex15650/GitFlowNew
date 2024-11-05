@@ -181,6 +181,9 @@
 							<Wrap>false</Wrap>
 							<ContextMenu name="ТоварыСуммаКонтекстноеМеню" id="31"/>
 							<ExtendedTooltip name="ТоварыСуммаExtendedTooltip" id="53"/>
+							<Events>
+								<Event name="OnChange">ТоварыСуммаПриИзменении</Event>
+							</Events>
 						</InputField>
 					</ChildItems>
 				</Table>
